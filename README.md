@@ -20,3 +20,21 @@ A conversational AI agent built using LangGraph and Anthropic's Claude model.
 - Start a conversation with the AI assistant
 - Type your messages and receive responses
 - Type 'quit', 'exit', or 'q' to end the conversation 
+
+## Project Documentation
+
+### Architecture
+![LangGraph Chatbot Agent Architecture](images/architecture.png)
+[Architecture description]
+
+### Implementation
+![Core Chatbot Agent Code](images/implementation.png)
+[Implementation details]
+
+### Interactive Demo
+![Chatbot in Action](images/demo.png)
+[Demo description]
+
+### Setup Process
+![Environment Configuration](images/setup.png)
+[Setup instructions]
