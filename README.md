@@ -66,17 +66,42 @@ A project designed to leverage LangGraph and Anthropic's Claude model for creati
 ## Project Documentation
 
 ### Architecture
-![LangGraph Chatbot Agent Architecture](images/architecture.png)
-[Architecture description]
+![Architecture](https://github.com/user-attachments/assets/2ea6a8c1-b354-42d9-b0f3-5f83d5922b2b)
+
+The project architecture demonstrates a clean, modular structure with the following components:
+- `chatbot_agent.py`: Core implementation of the LangGraph-based chatbot
+- `requirements.txt`: Dependency management for reproducible environments
+- `.env`: Secure configuration for API keys and environment variables
+- `.gitignore`: Version control configuration
+- `README.md`: Comprehensive project documentation
 
 ### Implementation
-![Core Chatbot Agent Code](images/implementation.png)
-[Implementation details]
+![Implementation Part 1](https://github.com/user-attachments/assets/d376c746-d8cf-488d-9a39-2b6730a68bb7)
+![Implementation Part 2](https://github.com/user-attachments/assets/57b478e5-00ec-40eb-91a2-6a1ea1fe9cc7)
+
+The implementation showcases:
+- Integration of LangGraph with Claude AI model
+- Type-safe state management using TypedDict
+- Structured conversation flow with StateGraph
+- Robust error handling and message processing
+- Clean separation of concerns between different components
 
 ### Interactive Demo
-![Chatbot in Action](images/demo.png)
-[Demo description]
+![Demo](https://github.com/user-attachments/assets/7d5f4ebb-04b4-4fd0-9d47-8f060771e462)
+
+The interactive demo illustrates:
+- Natural language conversation capabilities
+- Contextual understanding and response generation
+- Clean command-line interface
+- Proper handling of user inputs and exits
+- Real-time response generation using Claude AI
 
 ### Setup Process
-![Environment Configuration](images/setup.png)
-[Setup instructions]
+![Setup](https://github.com/user-attachments/assets/1cf3ec39-9052-45bd-a07b-957844177dc9)
+
+The setup process demonstrates:
+- Virtual environment configuration
+- Dependency installation via pip
+- Environment variable management
+- Project initialization steps
+- Verification of successful installation
